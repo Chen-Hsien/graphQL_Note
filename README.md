@@ -84,8 +84,14 @@ fragment companyDetails on Company{
 允許通過GraphQL進行資料的修改
 GraphQLNonNull-> 必填
 
+#### Apollo Server
+<img width="1470" alt="image" src="https://user-images.githubusercontent.com/24216536/212226772-8fa6cf3b-5362-4355-8c4d-ceb61dae2771.png">。  
+藉由觀察於Apollo Server送出的request可以得到幾個關於GraphQL Query的資訊。 
+* Request Method: POST
+* Content-Type: application/json
+* Response -> {"data":{"greeting":"Hello World"}}
 
+#### graphql-request 輕量http取資料
+npm add graphql-request graphql
 
-
-  
-  
+import {request , gql } from 'graphql-request'
