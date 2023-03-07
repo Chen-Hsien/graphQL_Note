@@ -1,4 +1,4 @@
-# graphql_Try
+# graphQL_Note
 
 ## Rest API vs GraphQL
 
